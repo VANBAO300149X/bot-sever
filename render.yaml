@@ -3,7 +3,7 @@ services:
     name: vbtool-bot
     runtime: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python VBTOOL_Render_Bot.py
+    startCommand: python vbtoolbot.py
     autoDeploy: true
     disk:
       name: vbtool-data
