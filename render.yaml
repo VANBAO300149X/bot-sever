@@ -1,0 +1,11 @@
+services:
+  - type: worker
+    name: vbtool-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python VBTOOL_Render_Bot.py
+    autoDeploy: true
+    disk:
+      name: vbtool-data
+      mountPath: /var/data
+      sizeGB: 1
