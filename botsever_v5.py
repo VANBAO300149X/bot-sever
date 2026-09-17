@@ -52,7 +52,7 @@ try:
 except ImportError as exc:
     raise SystemExit("Thiếu requests. Cài: pip install requests") from exc
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8843095617:AAHrVWM5zHvCpCaBH1A0wuQ5A7vQ7lViQ9Q").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8751919755:AAFHU9QdX3R2kla_jyo7sFSWkPqEwDS6qa8").strip()
 POLL_TIMEOUT = 25
 MAX_TEXT = 3900
 FLUSH_INTERVAL = 0.40
