@@ -70,14 +70,14 @@ def _parse_chat_ids(value):
     return ids
 
 # Danh sach duoc phep dung bot (neu ban muon gioi han nguoi dung).
-_ALLOWED = os.getenv("ALLOWED_CHAT_IDS", "8018444800").strip()
+_ALLOWED = os.getenv("ALLOWED_CHAT_IDS", "801844480").strip()
 ALLOWED_CHAT_IDS = _parse_chat_ids(_ALLOWED)
 
 # Danh sach ADMIN rieng. Chi ID trong danh sach nay moi thay/dung
 # cac chuc nang MO BAN va THU HOI KEY.
 # De giu tuong thich voi ban cu, neu ADMIN_CHAT_IDS chua dat thi dung
 # gia tri Admin cu 8801844480 lam mac dinh.
-_ADMIN = os.getenv("ADMIN_CHAT_IDS", "88018444800").strip()
+_ADMIN = os.getenv("ADMIN_CHAT_IDS", "8801844480").strip()
 ADMIN_CHAT_IDS = _parse_chat_ids(_ADMIN)
 
 TOOLS = {
