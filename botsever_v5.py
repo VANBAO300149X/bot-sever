@@ -97,7 +97,7 @@ class _AnsiStyle:
 Fore = _AnsiFore()
 Style = _AnsiStyle()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8843095617:AAHrVWM5zHvCpCaBH1A0wuQ5A7vQ7lViQ9Q").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8344831081:AAHDiOWJastvPCkEeGTrPdZAp-q0J4oQU2M").strip()
 POLL_TIMEOUT = 25
 MAX_TEXT = 3900
 FLUSH_INTERVAL = 0.40
@@ -3552,7 +3552,7 @@ def create_telegraph_page(key, device_id):
     
 # ================== KEY SERVER ==================
 KEY_SERVER_URL = os.getenv("KEY_SERVER_URL", "https://keyvip-sever1.onrender.com").rstrip("/")
-KEY_SERVER_ADMIN_SECRET = os.getenv("KEY_SERVER_ADMIN_SECRET", "").strip()
+KEY_SERVER_ADMIN_SECRET = os.getenv("KEY_SERVER_ADMIN_SECRET", "VBTOOL_VANBAO999").strip()
 
 # ================== HÀM MÃ HÓA ==================
 
