@@ -3518,7 +3518,7 @@ def create_telegraph_page(key, device_id):
     
 # ================== KEY SERVER ==================
 KEY_SERVER_URL = os.getenv("KEY_SERVER_URL", "https://keyvip-sever1.onrender.com").rstrip("/")
-KEY_SERVER_ADMIN_SECRET = os.getenv("KEY_SERVER_ADMIN_SECRET", "").strip()
+KEY_SERVER_ADMIN_SECRET = os.getenv("KEY_SERVER_ADMIN_SECRET", "VBTOOL_VANBAO999").strip()
 
 # ================== HÀM MÃ HÓA ==================
 
