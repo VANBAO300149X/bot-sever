@@ -261,7 +261,7 @@ def _parse_chat_ids(value):
             pass
     return ids
     
-_ALLOWED = os.getenv("ALLOWED_CHAT_IDS", "801844480").strip()
+_ALLOWED = os.getenv("ALLOWED_CHAT_IDS", "8801844480").strip()
 ALLOWED_CHAT_IDS = _parse_chat_ids(_ALLOWED)
 
 # Danh sach ADMIN rieng. Chi ID trong danh sach nay moi thay/dung
